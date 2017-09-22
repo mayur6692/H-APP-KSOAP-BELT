@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">liivie</string>
+    <string name="app_zero">0</string>
+    <string name="app_zero_percent">0%</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Abbrechen</string>
+    <string name="nav_menu_teaser">Schutzengel meiner Gesundheit</string>
+    <string name="nav_menu_devices">Meine Armbänder</string>
+    <string name="nav_menu_settings">Einstellungen</string>
+    <string name="nav_menu_wizard">Einführung</string>
+    <string name="nav_menu_about">Über liivie</string>
+    <string name="navigation_drawer_open">Menü öffnen</string>
+    <string name="navigation_drawer_close">Menü schließen</string>
+    <string name="nav_tab_heart_frequency">Herzfrequenz</string>
+    <string name="nav_tab_blood_pressure">Blutdruck</string>
+    <string name="nav_tab_heart_rhythm">Herzrhythmus</string>
+    <string name="nav_tab_sleep_monitor">Schlafmonitor</string>
+    <string name="nav_tab_step_counter">Schrittzähler</string>
+
+    <string name="main_connected">Verbunden</string>
+    <string name="main_disconnected">Nicht Verbunden</string>
+    <string name="main_change_the_device">Bitte wechseln Sie das Armband</string>
+
+    <string name="title_activity_wizard">Start-Assistent</string>
+    <string name="wizard_welcome">Willkommen bei liivie!</string>
+    <string name="wizard_welcome_teaser">Bitte verbinden Sie zunächst Ihre Armbänder. Schalten Sie dazu bitte jetzt beide Armbänder an.</string>
+    <string name="wizard_next_button">Weiter</string>
+
+    <string name="title_activity_discover_devices">Meine Geräte</string>
+    <string name="discover_devices_done_button">Fertig</string>
+    <string name="discover_devices_search_button">Armbänder suchen</string>
+    <string name="discover_devices_list_header_one">Aktiviert</string>
+    <string name="discover_devices_list_header_two">Nicht aktiviert</string>
+    <string name="discover_devices_both_devices_set">Derzeit sind zwei Armbänder aktiviert, Sie müssen eins deaktivieren um ein neues hinzuzufügen</string>
+    <string name="discover_devices_deactivate_device">Möchten Sie dieses Armband deaktivieren?</string>
+    <string name="discover_devices_connect_device">Möchten Sie die App mit diesem Armband verbinden?</string>
+
+    <string name="main_fragment_bpm">bpm</string>
+</resources>

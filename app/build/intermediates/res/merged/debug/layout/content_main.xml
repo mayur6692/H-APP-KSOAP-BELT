@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="de.dennisweidmann.aba.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--<de.dennisweidmann.aba.Subclasses.SmoothViewPager
+        android:id="@+id/main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_navigation"
+        android:background="@color/colorGrey"/>
+
+    <FrameLayout
+        android:layout_above="@+id/tab_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:background="@color/colorGrey"/>-->
+
+
+    <de.dennisweidmann.aba.Subclasses.SmoothViewPager
+        android:id="@+id/main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_navigation"
+        android:visibility="gone"
+        android:background="@color/colorGrey"/>
+
+    // India_Team
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/tab_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:visibility="gone"
+        app:itemBackground="@android:color/transparent"
+        app:itemIconTint="@drawable/nav_item_color_state"
+        app:itemTextColor="@drawable/nav_item_color_state"
+        android:background="@color/colorBarBackground"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>

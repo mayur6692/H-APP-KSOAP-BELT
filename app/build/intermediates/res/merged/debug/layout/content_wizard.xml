@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLogo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="de.dennisweidmann.aba.WizardActivity"
+    tools:showIn="@layout/activity_wizard">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/wizard_bottom_sheet"
+        android:padding="72dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/wizard_welcome_teaser"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wizard_welcome"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wizard_welcome_teaser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wizard_welcome_teaser"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_above="@+id/wizard_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.6"
+        android:background="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:id="@+id/wizard_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/wizard_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:text="@string/wizard_next_button"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

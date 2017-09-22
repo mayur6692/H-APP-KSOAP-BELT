@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorViewBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="de.dennisweidmann.aba.DiscoverDevicesActivity"
+    tools:showIn="@layout/activity_discover_devices">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/discover_devices_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtNoDeviceFound" />
+
+    <TextView
+        android:id="@+id/txtNoDeviceFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/discover_devices_bottom_sheet"
+        android:gravity="center"
+        android:text="No device found"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/dividerView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/discover_devices_bottom_sheet"
+        android:alpha="0.3"
+        android:background="@color/colorGrey" />
+
+    <RelativeLayout
+        android:id="@+id/discover_devices_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBarBackground"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/discover_devices_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_toStartOf="@+id/discover_devices_done_button"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|start"
+            android:text="@string/discover_devices_search_button"
+            android:textColor="@color/colorLogo"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/discover_devices_done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorLogo"
+            android:text="@string/discover_devices_done_button"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

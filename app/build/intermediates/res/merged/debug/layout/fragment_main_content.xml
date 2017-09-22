@@ -1,0 +1,300 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorViewBackground"
+    tools:context="de.dennisweidmann.aba.MainContentFragment">
+
+    <FrameLayout
+        android:id="@+id/horizontal_helper"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:id="@+id/vertical_helper"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:visibility="invisible" />
+
+    <de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout
+        android:id="@+id/leftBtry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@+id/vertical_helper"
+        android:alpha="0.8"
+        android:background="@drawable/circle_green_small">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+            <FrameLayout
+                android:id="@+id/small_left_vertical_helper"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/small_left_ratio_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_toStartOf="@+id/small_left_ratio_text"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_battery_alert_black_48dp" />
+
+            <TextView
+                android:id="@+id/small_left_ratio_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="-6dp"
+                android:layout_toEndOf="@+id/small_left_vertical_helper"
+                android:gravity="center_vertical|start"
+                android:text="@string/app_zero_percent"
+                android:textColor="@color/colorLogo"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout>
+
+    <de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout
+        android:id="@+id/rightBtry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/vertical_helper"
+        android:alpha="0.8"
+        android:background="@drawable/circle_green_small">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+            <FrameLayout
+                android:id="@+id/small_right_vertical_helper"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/small_right_ratio_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginStart="16dp"
+                android:layout_toStartOf="@+id/small_right_ratio_text"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_battery_alert_black_48dp" />
+
+            <TextView
+                android:id="@+id/small_right_ratio_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="-6dp"
+                android:layout_toEndOf="@+id/small_right_vertical_helper"
+                android:gravity="center_vertical|start"
+                android:text="@string/app_zero_percent"
+                android:textColor="@color/colorLogo"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout>
+
+
+    <Button
+        android:id="@+id/btnClickMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Get Vital Data"
+        android:textAllCaps="false" />
+
+    <de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout
+        android:id="@+id/big_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="58dp"
+        android:background="@drawable/circle_blue">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/big_vertical_helper"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:id="@+id/big_horizontal_helper"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="6dp"
+                android:background="@android:color/transparent"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/big_main_type_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/big_main_number_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-16dp"
+                android:gravity="center"
+                android:textColor="@color/colorBlue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/big_main_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="-30dp"
+                android:layout_toStartOf="@+id/big_vertical_helper"
+                android:gravity="center_horizontal|end"
+                android:text="@string/app_zero"
+                android:textColor="@android:color/black"
+                android:textSize="100sp" />
+
+            <TextView
+                android:id="@+id/big_main_unit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/big_horizontal_helper"
+                android:layout_marginStart="48dp"
+                android:layout_toEndOf="@+id/big_main_number_text"
+                android:gravity="center_horizontal|start"
+                android:text="@string/main_fragment_bpm"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/big_main_unit_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/big_main_unit_text"
+                android:layout_alignEnd="@+id/big_main_unit_text"
+                android:layout_alignStart="@+id/big_main_unit_text"
+                android:layout_alignTop="@+id/big_main_number_text"
+                android:layout_marginBottom="-8dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_info_outline_black_48dp" />
+
+            <TextView
+                android:id="@+id/big_main_power_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/big_main_number_text"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="-8dp"
+                android:layout_toStartOf="@+id/big_vertical_helper"
+                android:gravity="center_horizontal|end"
+                android:text="@string/app_zero_percent"
+                android:textColor="@color/colorBlue"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/big_main_power_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/big_main_power_text"
+                android:layout_alignTop="@+id/big_main_power_text"
+                android:layout_marginEnd="-12dp"
+                android:layout_toStartOf="@+id/big_main_power_text"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_battery_full_black_48dp" />
+
+            <TextView
+                android:id="@+id/big_main_bluetooth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/big_main_bluetooth_image"
+                android:layout_marginStart="-14dp"
+                android:layout_toEndOf="@+id/big_main_bluetooth_image"
+                android:gravity="center_horizontal|start"
+                android:text="@string/main_connected"
+                android:textColor="@color/colorBlue"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/big_main_bluetooth_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/big_main_power_image"
+                android:layout_alignTop="@+id/big_main_power_image"
+                android:layout_marginStart="-24dp"
+                android:layout_toEndOf="@+id/big_vertical_helper"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_bluetooth_black_48dp" />
+
+        </RelativeLayout>
+
+
+    </de.dennisweidmann.aba.Subclasses.AspectRatioFrameLayout>
+
+    <TextView
+        android:id="@+id/txtConnectionState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtArmBraclet"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Device not connected"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtArmBraclet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/big_layout"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:text="@string/main_change_the_device"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>

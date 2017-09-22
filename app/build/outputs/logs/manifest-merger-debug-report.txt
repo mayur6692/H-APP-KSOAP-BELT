@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:6:9-53
+permission#de.dennisweidmann.aba.permission.BROADCAST_PERMISSION
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:9:5-88
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:9:17-85
+uses-permission#de.dennisweidmann.aba.permission.BROADCAST_PERMISSION
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:11:5-93
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:11:22-90
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:14:5-74
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:19:22-78
+application
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:21:5-79:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jaysainath\.android\build-cache\4db05a830202323b1cec7586aaf3ffe0fb469e7e\output\AndroidManifest.xml:26:5-20
+MERGED from [io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.0.5] C:\Users\Jaysainath\.android\build-cache\865cf71bfc1d62ff49a48c636e8f0565a46dd3ed\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\e86b53c885d27340becb94e9474de929da516eab\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jaysainath\.android\build-cache\bed90a6b93990635ca29d44cd9ca49ac90dc354b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jaysainath\.android\build-cache\a8ee06da0dde0282398173638db538dddd81fb87\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\7ae677ec08ad7db0042b3f050be28473251e25ec\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jaysainath\.android\build-cache\5e066bcfb959b8cade743acd9461f246222aaa15\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\4f28865bc0b45d07312564f63081fd47d1f69d3e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\c33dc3e617a119aface0bdae8766632e197f60da\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jaysainath\.android\build-cache\476e168eae3bcd92d19e97aef910202515134202\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\6f25cb991678b01d8ad2e22272ba18ba7d130be3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\5f59d2cdf7c9237329904dc1cbdca4c292a2c42a\output\AndroidManifest.xml:26:5-20
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:24:9-41
+	android:supportsRtl
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:27:9-35
+	android:roundIcon
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:26:9-54
+	android:allowBackup
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:22:9-35
+	android:icon
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:23:9-43
+	android:largeHeap
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:25:9-33
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:28:9-40
+activity#de.dennisweidmann.aba.MainActivity
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:29:9-38:20
+	android:screenOrientation
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:31:13-45
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:36:27-74
+activity#de.dennisweidmann.aba.WizardActivity
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:39:9-43:59
+	android:screenOrientation
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:42:13-49
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:41:13-58
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:40:13-43
+activity#de.dennisweidmann.aba.DiscoverDevicesActivity
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:44:9-48:59
+	android:screenOrientation
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:46:13-68
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:45:13-52
+activity#de.dennisweidmann.aba.ScanDevicesActivity
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:50:9-54:59
+	android:screenOrientation
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:52:13-68
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:51:13-48
+activity#de.dennisweidmann.aba.ConnectedDevicesActivity
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:56:9-60:59
+	android:screenOrientation
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:58:13-68
+	android:theme
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:57:13-53
+service#de.dennisweidmann.aba.Model.BTLE.BTLEService
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:73:9-75:38
+	android:enabled
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:75:13-35
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:74:13-51
+service#de.dennisweidmann.aba.UpdateService
+ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:76:9-78:38
+	android:enabled
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:78:13-35
+	android:name
+		ADDED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml:77:13-42
+uses-sdk
+INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jaysainath\.android\build-cache\4db05a830202323b1cec7586aaf3ffe0fb469e7e\output\AndroidManifest.xml:20:5-44
+MERGED from [io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.0.5] C:\Users\Jaysainath\.android\build-cache\865cf71bfc1d62ff49a48c636e8f0565a46dd3ed\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\e86b53c885d27340becb94e9474de929da516eab\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jaysainath\.android\build-cache\bed90a6b93990635ca29d44cd9ca49ac90dc354b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jaysainath\.android\build-cache\a8ee06da0dde0282398173638db538dddd81fb87\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\7ae677ec08ad7db0042b3f050be28473251e25ec\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jaysainath\.android\build-cache\5e066bcfb959b8cade743acd9461f246222aaa15\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\4f28865bc0b45d07312564f63081fd47d1f69d3e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\c33dc3e617a119aface0bdae8766632e197f60da\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\7eae17efa1764f7497aeae817fa56995823444f6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jaysainath\.android\build-cache\476e168eae3bcd92d19e97aef910202515134202\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\6f25cb991678b01d8ad2e22272ba18ba7d130be3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\5f59d2cdf7c9237329904dc1cbdca4c292a2c42a\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Fiverr\Jaydeep\h-app-Y--ksoap2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Jaysainath\.android\build-cache\4db05a830202323b1cec7586aaf3ffe0fb469e7e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\e86b53c885d27340becb94e9474de929da516eab\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jaysainath\.android\build-cache\bed90a6b93990635ca29d44cd9ca49ac90dc354b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jaysainath\.android\build-cache\a8ee06da0dde0282398173638db538dddd81fb87\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\7ae677ec08ad7db0042b3f050be28473251e25ec\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jaysainath\.android\build-cache\5e066bcfb959b8cade743acd9461f246222aaa15\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\4f28865bc0b45d07312564f63081fd47d1f69d3e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jaysainath\.android\build-cache\c33dc3e617a119aface0bdae8766632e197f60da\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\7eae17efa1764f7497aeae817fa56995823444f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jaysainath\.android\build-cache\476e168eae3bcd92d19e97aef910202515134202\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jaysainath\.android\build-cache\6f25cb991678b01d8ad2e22272ba18ba7d130be3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Jaysainath\.android\build-cache\5f59d2cdf7c9237329904dc1cbdca4c292a2c42a\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Jaysainath\.android\build-cache\312701f86fc68f449881a6e5efc6909582290841\output\AndroidManifest.xml:26:9-47

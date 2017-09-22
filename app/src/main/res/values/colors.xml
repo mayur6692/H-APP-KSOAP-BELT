@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F9F8F6</color>
+    <color name="colorPrimaryDark">#AACC42</color>
+    <color name="colorAccent">#AACC42</color>
+
+    <color name="colorLogo">#AACC42</color>
+    <color name="colorLightDark">#212121</color>
+    <color name="colorBarBackground">#F5F5F5</color>
+    <color name="colorViewBackground">#F5F3CD</color>
+    <color name="colorBlue">#4083B7</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorGrey">#616161</color>
+    <color name="colorLightGrey">#EEE</color>
+</resources>
